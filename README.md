@@ -1,4 +1,4 @@
-## Fresh Bazaar
+# Fresh Bazaar
 
 An ECommerce App created for the semester long SE Lab Mini Project.
 
