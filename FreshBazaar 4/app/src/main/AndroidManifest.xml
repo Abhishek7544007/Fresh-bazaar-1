@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.selabg11.freshbazaar">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".homepage2"></activity>
+        <activity android:name=".Cart" />
+        <activity
+            android:name=".SearchProducts"
+            android:label="Search"
+            android:parentActivityName=".homepage2" />
+        <activity android:name=".ProductDisplays.ProductDisplaySeafood" />
+        <activity android:name=".ProductDisplays.ProductDisplayFruit" />
+        <activity android:name=".ProductDisplays.ProductDisplayEggs" />
+        <activity android:name=".ProductDisplays.ProductDisplayDairy" />
+        <activity android:name=".ProductDisplays.ProductDisplayCereal" />
+        <activity android:name=".ProductDisplays.ProductDisplay" />
+        <activity
+            android:name=".Categories.Seafood"
+            android:label="@string/seafood"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".Categories.Dairy"
+            android:label="@string/dairy"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".Categories.Eggs"
+            android:label="@string/eggs"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".Categories.Fruit"
+            android:label="@string/fruit"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".Categories.Cereals"
+            android:label="@string/cereals"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".Categories.Vegetables"
+            android:label="@string/vegetable"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".ItemUploadActivity"
+            android:label="@string/title_item_upload"
+            android:parentActivityName=".homepage2" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".reset" />
+        <activity android:name=".launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity
+            android:name=".privacy_policy"
+            android:label="@string/title_policy"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".feedback"
+            android:label="@string/title_feedback"
+            android:parentActivityName=".homepage2" />
+        <activity android:name=".About_us" />
+        <activity
+            android:name=".wallet"
+            android:label="@string/title_wallet"
+            android:parentActivityName=".homepage2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".homepage2" />
+        </activity>
+        <activity
+            android:name=".legal_policy"
+            android:label="@string/title_activity_legal_policy"
+            android:parentActivityName=".homepage2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".User_profile" />
+        <activity
+            android:name=".homepage2"
+            android:label="@string/title_activity_homepage2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".cart" />
+        <activity android:name=".Products_by_Cat" />
+        <activity
+            android:name=".profile_display"
+            android:label="My Account"
+            android:parentActivityName=".homepage2" />
+        <activity
+            android:name=".test"
+            android:label="Edit Profile"
+            android:parentActivityName=".profile_display" />
+        <activity android:name=".deal_of_the_day" />
+        <activity android:name=".product_deal" />
+    </application>
+
+</manifest>

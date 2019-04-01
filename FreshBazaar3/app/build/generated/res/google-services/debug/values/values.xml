@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">565957052958-pira9k8c2a3c118cd16ja4j9qqleunnd.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://consigntestbed.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">565957052958</string>
+    <string name="google_api_key" translatable="false">AIzaSyANbJXbBtjUxQ1xy0Iw4hdqC8M_6J-ehwg</string>
+    <string name="google_app_id" translatable="false">1:565957052958:android:e08d018d57c901c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANbJXbBtjUxQ1xy0Iw4hdqC8M_6J-ehwg</string>
+    <string name="google_storage_bucket" translatable="false">consigntestbed.appspot.com</string>
+    <string name="project_id" translatable="false">consigntestbed</string>
+</resources>

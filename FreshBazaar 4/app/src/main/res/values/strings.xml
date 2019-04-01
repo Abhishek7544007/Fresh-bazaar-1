@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Fresh Bazaar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_deal">Deals of the Day</string>
+    <string name="nav_item_upload">Upload Item</string>
+    <string name="nav_track">Track my Order</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Log Out</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_policies">Legal Policies</string>
+    <string name="nav_cart">My Cart</string>
+    <string name="nav_wish_list">My Wishlist</string>
+    <string name="nav_wallet">My Wallet</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="username">UserName</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 4 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or register</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Join Fresh Bazaar now!</string>
+    <string name="btn_link_to_login">Already registered? Login Here</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to send you the reset instructions.</string>
+    <string name="todo">TODO</string>
+    <string name="title_wallet">My Wallet</string>
+    <array name="User_Type">
+        <item>Consumer</item>
+        <item>Producer</item>
+    </array>
+    <string name="title_policy">Legal Policy</string>
+    <string name="search_activity_string">Search</string>
+    <string name="title_item_upload">Upload Item</string>
+    <string name="title_activity_legal_policy">Legal Policy</string>
+    <string name="title_activity_homepage2">Fresh Bazaar</string>
+    <string name="title">Upload Your Item For Sale</string>
+    <string name="search_string_home">Search..</string>
+    <string name="item">Item Name</string>
+    <string name="date_production">DD/MM/YYYY</string>
+    <string name="date_expiry">DD/MM/YYYY</string>
+    <string name="production"> Production Date</string>
+    <string name="expiry"> Expiry Date</string>
+    <string name="price">Price</string>
+    <string name="qty">Amount</string>
+    <string name="img_add">Add Image</string>
+    <string name="data_upload">Upload</string>
+    <string name="vegetable">Vegetables</string>
+    <string name="fruit">Fruit</string>
+    <string name="cereals">Cereals</string>
+    <string name="dairy">Dairy</string>
+    <string name="seafood">Seafood</string>
+    <string name="eggs">Eggs</string>
+    <array name="units">
+        <item>kg</item>
+        <item>l</item>
+    </array>
+    <array name="Categories">
+        <item>Vegetables</item>
+        <item>Fruit</item>
+        <item>Eggs</item>
+        <item>Dairy</item>
+        <item>Seafood</item>
+        <item>Cereals</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Search..</string>
+    <string name="nearby">Get Nearby Vendors</string>
+</resources>
